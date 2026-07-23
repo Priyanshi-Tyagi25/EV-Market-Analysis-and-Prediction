@@ -68,3 +68,14 @@ production-ready — the pipeline itself doesn't change.
 - Bring in macro drivers (battery cost curves, policy/subsidy timelines,
   charging infrastructure density) for a causal model instead of pure
   time-series extrapolation
+  
+## Goal: Understand how the global electric vehicle (EV) market has grown over the last decade, quantify that growth, break it down by region, and build a short-term forecast for 2026–2030.
+
+Pipeline (what each section does and why):
+
+Data Preparation — load & sanity-check the data
+Exploratory Data Analysis (EDA) — look before we model
+Growth Analysis — YoY growth and CAGR (the "how fast" question)
+Forecasting — project 2026–2030 using a couple of models, and compare them
+Regional Analysis — who is actually driving the growth
+Insights & Recommendations — translate numbers into decisions
